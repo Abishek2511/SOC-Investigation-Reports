@@ -16,10 +16,9 @@ Executive Summary
 
 ## Tools and Log Sources Referenced ##
 
-SIEM: Splunk (correlation rules, search queries)
-Windows logs: Security Event Log (4624, 4648, 4663), Sysmon (Event ID 1, 3), PowerShell Operational
-Log Correlation: Windows, Powershell, Proxy, Firewall
-Threat intel: VirusTotal, URLScan, CyberChef, AbuseIPDB
+1. SIEM: Splunk (correlation rules, search queries)
+2. Log Sources: Windows, Powershell, Proxy, Firewall
+3. Threat intel: VirusTotal, URLScan, CyberChef, AbuseIPDB
 
 ## Investigation Philosophy ##
 Every alert starts with three questions:
