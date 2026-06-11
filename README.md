@@ -24,8 +24,8 @@ Threat intel: VirusTotal, URLScan, CyberChef, AbuseIPDB
 ## Investigation Philosophy ##
 Every alert starts with three questions:
 
-How did it get here? — trace the origin, understand the trigger
-Who was targeted? — identify the user, asset, and blast radius
-Did it succeed? — determine if the attacker achieved their goal
+1. How did it get here? — trace the origin, understand the trigger
+2. Who was targeted? — identify the user, asset, and blast radius
+3. Did it succeed? — determine if the attacker achieved their goal
 
 A closed alert with no documentation is a missed opportunity. These reports are written so that the next analyst — or the same analyst six months later — can understand exactly what happened and why the call was made.
