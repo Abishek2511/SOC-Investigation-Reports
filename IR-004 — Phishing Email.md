@@ -15,7 +15,7 @@ Was any employee tricked into interacting with it?
 
 SPF, DKIM, DMARC: Checked authentication results in the email headers. SPF failed — the sending IP did not match the authorised senders for the domain. DKIM was absent. DMARC failed as a result. Three authentication failures on a single email is a strong early indicator of spoofing or a newly stood-up malicious domain.
 Mail-From vs From alignment: The Mail-From (envelope sender) and the From header did not match — a common technique to make the display name look legitimate while routing replies elsewhere.
-#### Sending IP vs domain: The IP in the headers did not resolve back to the claimed sending domain. Checked the sending IP on VirusTotal — no prior reputation, but the domain was registered recently (days old at time of send), which is a significant flag on its own.
+Sending IP vs domain: The IP in the headers did not resolve back to the claimed sending domain. Checked the sending IP on VirusTotal — no prior reputation, but the domain was registered recently (days old at time of send), which is a significant flag on its own.
 
 #### Sender domain analysis:
 Checked the domain in VirusTotal and URLScan. The domain had no legitimate web presence — no real website, no business content. For a domain claiming to represent a known company, the absence of any web footprint is telling. URLScan showed the domain had only been queried a handful of times, all recently, consistent with a freshly registered phishing domain.
