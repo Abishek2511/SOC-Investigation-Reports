@@ -28,3 +28,6 @@ Every alert starts with three questions:
 3. Did it succeed? — determine if the attacker achieved their goal
 
 A closed alert with no documentation is a missed opportunity. These reports are written so that the next analyst — or the same analyst six months later — can understand exactly what happened and why the call was made.
+
+
+##### These reports are based on real investigations I handled during my time as a Cyber Security Engineer. Details have been anonymised and writeups were structured with AI assistance for clarity and presentation.
